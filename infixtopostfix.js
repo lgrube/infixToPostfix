@@ -56,6 +56,9 @@ function evaluate(int pop1, int pop2, char operand) {
 		if (operand == ('/')) {
 			if(TEST) {
 				print("This is a division sign");
+				print(pop2);
+				print(pop1);
+				print(operand);
 			} //end of if test
 			print(pop2);
 			print(pop1);
@@ -65,6 +68,9 @@ function evaluate(int pop1, int pop2, char operand) {
 		else if (operand == ('*')) {
 			if(TEST) {
 				print("This is a multiplication sign");
+				print(pop2);
+				print(pop1);
+				print(operand);
 			} //end of if test
 			print(pop2);
 			print(pop1);
@@ -74,6 +80,9 @@ function evaluate(int pop1, int pop2, char operand) {
 		else if (operand == ('-')) {
 			if(TEST) {
 				print("This is a subtraction sign");
+				print(pop2);
+				print(pop1);
+				print(operand);
 			} // end of it test
 			print(pop2);
 			print(pop1);
@@ -83,6 +92,9 @@ function evaluate(int pop1, int pop2, char operand) {
 		else if (operand == ('+')) {
 			if(TEST) {
 				print("This is a addition sign");
+				print(pop2);
+				print(pop1);
+				print(operand);
 			}//end of if test
 			print(pop2);
 			print(pop1);
