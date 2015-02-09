@@ -39,8 +39,8 @@ function clear() {
 
 function postfixCalc(userinput) {
 	this();
-	int pop1 = 0;
-	int pop2 = 0;
+	pop1 = 0;
+	pop2 = 0;
 	var operand = '+';
 	stack() Stack = userinput;
 
@@ -55,38 +55,38 @@ function evaluate(int pop1, int pop2, char operand) {
 		if (operand == ('/')) {
 			if(TEST) {
 				print("This is a division sign");
-				print(pop2);
-				print(pop1);
-				print(operand);
-			}
+			} //end of if test
+			print(pop2);
+			print(pop1);
+			print(operand);
 			result = pop2 / pop1;
-		}
+		} // end of division math
 		else if (operand == ('*')) {
 			if(TEST) {
 				print("This is a multiplication sign");
-				print(pop2);
-				print(pop1);
-				print(operand);
-			}
+			} //end of if test
+			print(pop2);
+			print(pop1);
+			print(operand);
 			result = pop2 * pop1;
-		}
+		} // end of multiplication math
 		else if (operand == ('-')) {
 			if(TEST) {
 				print("This is a subtraction sign");
-				print(pop2);
-				print(pop1);
-				print(operand);
-			}
+			} // end of it test
+			print(pop2);
+			print(pop1);
+			print(operand);
 			result = pop2 - pop1;
-		}
+		} // end of subtraction
 		else if (operand == ('+')) {
 			if(TEST) {
 				print("This is a addition sign");
-				print(pop2);
-				print(pop1);
-				print(operand);
-			}
+			}//end of if test
+			print(pop2);
+			print(pop1);
+			print(operand);
 			result = pop2 + pop1
-		}
-	}
-}
+		}// end of addition math
+	} //end of for loop
+} //end of evalutate
