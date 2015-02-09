@@ -37,6 +37,7 @@ function clear() {
   this.top = 0;
 }
 
+//userinput and seperation of input
 function postfixCalc(userinput) {
 	this();
 	pop1 = 0;
