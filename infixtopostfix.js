@@ -64,6 +64,7 @@ function evaluate(int pop1, int pop2, char operand) {
 			print(pop1);
 			print(operand);
 			result = pop2 / pop1;
+			result.push();
 		} // end of division math
 		else if (operand == ('*')) {
 			if(TEST) {
@@ -76,6 +77,7 @@ function evaluate(int pop1, int pop2, char operand) {
 			print(pop1);
 			print(operand);
 			result = pop2 * pop1;
+			result.push();
 		} // end of multiplication math
 		else if (operand == ('-')) {
 			if(TEST) {
@@ -88,6 +90,7 @@ function evaluate(int pop1, int pop2, char operand) {
 			print(pop1);
 			print(operand);
 			result = pop2 - pop1;
+			result.push();
 		} // end of subtraction
 		else if (operand == ('+')) {
 			if(TEST) {
@@ -100,6 +103,17 @@ function evaluate(int pop1, int pop2, char operand) {
 			print(pop1);
 			print(operand);
 			result = pop2 + pop1
+			result.push();
 		}// end of addition math
 	} //end of for loop
 } //end of evalutate
+
+function seperate(userinput) {
+	var string = userinput;
+	var nwst = string.split();
+	var
+	for (int i =0; i<string; i++) {
+		if(i >= '0' && i <= '9')
+			pop
+	}
+}
