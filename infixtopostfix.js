@@ -3,6 +3,7 @@
 //infix to postfix calculator
 var TEST = true;
 
+var userinput = prompt("Enter an infix equation here: " , "1+4-2*5");
 function Stack() {
 	this.dataStore = [];
 	this.top = 0;
@@ -43,16 +44,16 @@ function postfixCalc(userinput) {
 	pop1 = 0;
 	pop2 = 0;
 	var operand = '+';
-	stack() Stack = userinput;
+	stack() = userinput;
 
 }
 
 //math function for postfix
-function evaluate(int pop1, int pop2, char operand) {
+function evaluate(pop1, pop2, operand) {
 	
 	var result = 0;
 	
-	for (int i = 0; i < Stack.length; i++) {
+	for(var i = 0; i < Stack.length; i++) {
 		if (operand == ('/')) {
 			if(TEST) {
 				print("This is a division sign");
@@ -108,7 +109,7 @@ function evaluate(int pop1, int pop2, char operand) {
 	} //end of for loop
 } //end of evalutate
 
-function seperate(userinput) {
+/*function seperate(userinput) {
 	var string = userinput;
 	var nwst = string.split();
 	var
@@ -116,4 +117,6 @@ function seperate(userinput) {
 		if(i >= '0' && i <= '9')
 			pop
 	}
-}
+}*/
+
+print("did this work"); //this worked fine
